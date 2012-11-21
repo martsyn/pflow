@@ -10,7 +10,10 @@ namespace pflow
         static void Main(string[] args)
         {
             if (args.Length < 1)
+            {
                 ShowUsage();
+                //return;
+            }
             
             switch (args[0])
             {
