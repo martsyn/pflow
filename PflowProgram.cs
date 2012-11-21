@@ -12,7 +12,7 @@ namespace pflow
             if (args.Length < 1)
             {
                 ShowUsage();
-                //return;
+                return;
             }
             
             switch (args[0])
